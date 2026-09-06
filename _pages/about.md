@@ -11,7 +11,10 @@ I am a first-year Physics PhD student and a Lanczos and Dean Fellow at the Unive
 
 My research primarily focuses on quantum information theory, quantum computing, and their structural applications within condensed matter physics. I am particularly interested in exploring quantum error correction, open quantum systems and designing novel quantum circuits fault-tolerantly for simulating physical systems. Recently, I have also dabbled in quantum resource theories. I am always eager to collaborate on intriguing new ideas across these domains.
 
-Email:ssarma03(at)umd(dot)edu
+Email: ssarma03(at)umd(dot)edu
+
+<a href="https://info.flagcounter.com/piz4"><img src="https://s05.flagcounter.com/count2/piz4/bg_FFFFFF/txt_000000/border_CCCCCC/columns_8/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Free counters!" border="0"></a>
+
 
 
 Recent Research Experience:
@@ -32,12 +35,20 @@ Recent Publications:
   <li>
     {{ post.title }}<br>
     {{ post.authors }}  <br>
-
-    {% if post.venue_url %}
-      <em><a href="{{ post.venue_url }}">{{ post.venue }} ({{ post.date | date: "%Y" }})</a></em>.
+    {% if post.extra %}
+      {% if post.venue_url%}
+        <em><a href="{{ post.venue_url }}">{{ post.venue }} ({{ post.date | date: "%Y" }})</a>, {{post.extra}}</em>.
+      {% else %}
+        <em>{{ post.venue }} ({{ post.date | date: "%Y" }}), {{post.extra}}</em>.
+      {% endif %}
     {% else %}
-      <em>{{ post.venue }} ({{ post.date | date: "%Y" }})</em>.
+      {% if post.venue_url%}
+      <em><a href="{{ post.venue_url }}">{{ post.venue }} ({{ post.date | date: "%Y" }})</a></em>.
+      {% else %}
+        <em>{{ post.venue }} ({{ post.date | date: "%Y" }})</em>.
+      {% endif %}
     {% endif %}
+
 
     {% if post.paperurl %}
       [<a href="{{ post.paperurl }}">PDF</a>]

@@ -5,6 +5,7 @@ permalink: /publication/2026-02-03-semidefinite-programming-lindblad
 authors: '<b>S. Sarma</b>, M. Kulkarni, A. Purkayastha, D. Tupkary'
 date: 2026-02-03
 venue: 'Physical Review A'
+extra: 'Contributed poster at TQC (2026)'
 venue_url: 'https://journals.aps.org/pra/abstract/10.1103/jyck-mvlg'
 paperurl: 'https://arxiv.org/abs/2602.01794'
 ---
