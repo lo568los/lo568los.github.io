@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year Physics PhD student and a Lanczos and Dean Fellow at the University of Maryland, College Park. I graduated summa cum laude from the Indian Institute of Science (IISc) Bangalore with an Integrated BS-MS in Physics and an additional minor in Quantum Technologies. I believe that a rigorous foundation at the intersection of physics, computer science, and mathematics is essential for advancing modern quantum technologies.
+I am a first-year Physics PhD student and a Lanczos and Dean Fellow at the University of Maryland, College Park. In 2026, I graduated summa cum laude from the Indian Institute of Science, majoring in Physics and Quantum Technologies, honoured with the R. Srinivasan medal. I believe that a rigorous foundation at the intersection of physics, computer science, and mathematics is essential for advancing modern quantum technologies.
 
 My research primarily focuses on quantum information theory, quantum computing, and their structural applications within condensed matter physics. I am particularly interested in exploring quantum error correction, open quantum systems and designing novel quantum circuits fault-tolerantly for simulating physical systems. Recently, I have also dabbled in quantum resource theories. I am always eager to collaborate on intriguing new ideas across these domains.
 
