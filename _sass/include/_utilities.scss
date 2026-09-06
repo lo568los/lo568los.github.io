@@ -506,3 +506,10 @@ a.reversefootnote {
   align-items: center;
   text-align: center;
 }
+
+@media (min-width: 1024px) {
+  .sidebar {
+    width: 25%; 
+    max-width: 250px !important; /* Adjust this value to make it narrower or wider */
+  }
+}
