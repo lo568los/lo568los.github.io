@@ -21,7 +21,7 @@ I have played the piano for 9 years and hold a Grade 8 distinction under the Tri
 
 
 **Travel & Activities:**
-Beyond music, I swim regularly – having won several intra-college medals – and enjoy reading mystery thrillers. I also love to travel and have been to many locations across the globe for leisure or part of training.
+Beyond music, I swim regularly and enjoy reading mystery thrillers. I also love to travel and have been to many locations across the globe for leisure or part of training.
 
 <div style="max-width: 900px; margin: 0 auto;">
 
