@@ -507,9 +507,9 @@ a.reversefootnote {
   text-align: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .sidebar {
     width: 25%; 
-    max-width: 250px !important; /* Adjust this value to make it narrower or wider */
+    max-width: 200px !important; /* Adjust this value to make it narrower or wider */
   }
 }
