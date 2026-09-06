@@ -2,35 +2,50 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+You can find my publications on my <a href="https://scholar.google.com/citations?user=CQ33xLMAAAAJ&hl=en" target="_blank">Google Scholar</a> page too.
 
-{% include base_path %}
+<div id="publications-list">
+  <!-- Search Bar -->
+  <input class="search" placeholder="Search papers by keyword, author, or venue..." style="width: 100%; margin-bottom: 1em; padding: 0.5em;" />
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
+  <!-- Publication List -->
+  <ul class="list">
     {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+      <li>
+        <span class="title">{{ post.title }}</span><br>
+        <span class="authors">{{ post.authors }}</span> <br>
+
+        {% if post.venue_url %}
+          <em><a href="{{ post.venue_url }}" class="venue">{{ post.venue }} ({{ post.date | date: "%Y" }})</a></em>.
+        {% else %}
+          <em class="venue">{{ post.venue }} ({{ post.date | date: "%Y" }})</em>.
+        {% endif %}
+
+        {% if post.paperurl %}
+          [<a href="{{ post.paperurl }}">PDF</a>]
+        {% endif %}
+
+        {% for link in post.extra_links %}
+          [<a href="{{ link.url }}">{{ link.name }}</a>]
+        {% endfor %}
+      </li>
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  </ul>
 
+  <!-- Page Numbers -->
+  <ul class="pagination"></ul>
+</div>
 
+<!-- List.js Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js"></script>
+<script>
+  var options = {
+    valueNames: [ 'title', 'authors', 'venue' ],
+    page: 10,
+    pagination: true
+  };
+  var publicationList = new List('publications-list', options);
+</script>
 
