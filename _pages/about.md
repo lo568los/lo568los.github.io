@@ -21,7 +21,7 @@ Recent Research Experience:
 ---
 
 - From Spring 2025 to 2026, I worked with Dariel Mok, Tobias Haug and John Preskill on magic of equilibrium states in quantum chaotic Hamiltonians.  
-- Starting Srping 2025, I was a visiting student researcher for two months at A*STAR Agency, Singapore, under the guidance of Kishor Bharti.  
+- Starting Spring 2025, I was a visiting student researcher for two months at A*STAR Agency, Singapore, under the guidance of Kishor Bharti.  
 - From Fall 2024 to 2025, I was a Long Term Visiting student fellow at ICTS, working with Manas Kulkarni.  
 - In the summer of 2024, I was a DAAD-WISE Fellow working with Elio Koenig.  
 - In the summer of 2022, I was a National Initiative for Undergraduate Students Fellow at HBCSE-TIFR, and subsequently under the guidance of Deepak Dhar.
